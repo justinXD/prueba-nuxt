@@ -1,5 +1,5 @@
 {
-  "name": "devMind",
+  "name": "devmind",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
   "lint-staged": {
     "*.{js,vue}": "eslint --cache",
     "*.{css,scss,sass,html,vue}": "stylelint",
-    "*.**": "prettier --check --ignore-unknown"
+    "**/*": "prettier --check --ignore-unknown"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
